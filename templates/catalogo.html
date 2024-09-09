@@ -4,58 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Productos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Tienda Verde</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+    <!-- Barra de navegacion -->
+<body class="color5">
+    <nav class="navbar navbar-expand-lg navbar-light color3">
+        <div class="seccion-navegacion container-fluid">
+            <a class="navbar-brand text-color5" href="../index.html">Tienda Verde</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="solicitud.html">Solicitud de Reciclaje</a></li>
+                    <li class="nav-item"><a class="nav-link text-color5" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active text-color5" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link text-color5" href="solicitud.html">Solicitud de Reciclaje</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <!-- Catálogo -->
+    <div class="seccion-galeria text-color1 container mt-5">
         <h1>Catálogo de Productos</h1>
         <div class="row">
-            <div class="col-sm-4">
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="img/product1.jpg" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2" href="#">Centro de Mesa</a>
+                    </div>
+                    <img src="../img/prod1.jpeg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">4 Velas en formato macetero para centro de mesa</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="img/product2.jpg" class="card-img-top" alt="Producto 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2" href="#">Home Spray</a>
+                    </div>
+                    <img src="../img/prod2.jpeg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Home Spray con aroma personalizado.</p>
                     </div>
                 </div>
             </div>
-            <!-- Añadir más productos según sea necesario -->
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela artesanal</a>
+                    </div>
+                    <img src="../img/prod3.jpeg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela artesanal de soja en piedra volcanica.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela decorativa</a>
+                    </div>
+                    <img src="../img/prod4.jpeg" class="card-img-top" alt="Producto 4">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela decorativa con aroma a elección junto con piedras.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Multi vela </a>
+                    </div>
+                    <img src="../img/prod5.jpeg" class="card-img-top" alt="Producto 5">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5"> Velas para decoracion de exteriores.</p>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela aromatica</a>
+                    </div>
+                    <img src="../img/prod6.jpeg" class="card-img-top" alt="Producto 6">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela aromatica mini con escencias a elección.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Bolsa de regalo</a>
+                    </div>
+                    <img src="../img/prod7.jpeg" class="card-img-top" alt="Producto 7">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Bolsa de regalo personalizada con flores naturales.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela aromatica</a>
+                    </div>
+                    <img src="../img/prod8.jpeg" class="card-img-top" alt="Producto 8">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela artesanal de soja XL con aroma a elección.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela gigante</a>
+                    </div>
+                    <img src="../img/prod9.jpeg" class="card-img-top" alt="Producto 9">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela aromatica gigante para centro de mesa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-img-overlay text-center d-flex align-items-center justify-content-center hover-overlay">
+                        <a class="text-color2">Vela en taza</a>
+                    </div>
+                    <img src="../img/prod10.jpeg" class="card-img-top" alt="Producto 10">
+                    <div class="card-body color4">
+                        <p class="card-text text-color5">Vela de soja aromatica en taza de porcelana.</p>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
-            <p>© 2024 Tienda Verde</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>
